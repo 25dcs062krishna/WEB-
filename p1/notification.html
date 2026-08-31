@@ -1,22 +1,117 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Notification</title>
-    </head>
-    <body>
-        <h1>Notification Pages</h1>
+<html lang="en">
 
-        <ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Notifications</title>
+    <link rel="stylesheet" href="notification.css">
+</head>
 
-            <li>Tomorrow you have a Math quiz of 15 marks</li>
-            <li>Yesterday whichever students were absent go and meet the counciller right now</li>
-            <li>Tomorrow is holiday</li>
+<body>
 
-        </ul>
+    <div class="dashboard">
 
-        <a href = 'dashboard.html'>
-            <button>Back to dashboard</button>
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>STUDENTHUB</h2>
+                <p>Student Portal</p>
+            </div>
+
+            <nav>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="assignment.html">Assignments</a>
+                <a href="attendence.html">Attendance</a>
+                <a href="grades.html">Grades</a>
+                <a href="study-material.html">Study Material</a>
+                <a href="timetable.html">Time Table</a>
+                <a href="notification.html" class="active">Notifications</a>
+                <a href="profile.html">Profile</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <a href="index.html">Logout</a>
+            </div>
+
+        </aside>
 
 
-    </body>
+        <main class="main-content">
+
+            <div class="topbar">
+
+                <div>
+                    <h1>Notifications</h1>
+                    <p>Important updates and announcements</p>
+                </div>
+
+                <div class="student-info">
+
+                    <div>
+                        <strong>Student</strong>
+                        <span>CSE Student</span>
+                    </div>
+
+                    <div class="student-avatar">
+                        S
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <section class="notification-section">
+
+                <h2>Recent Notifications</h2>
+
+                <div class="notification-list">
+
+                    <div class="notification-card">
+                        <div class="notification-icon">📢</div>
+
+                        <div class="notification-content">
+                            <h3>Math Quiz</h3>
+                            <p>Tomorrow you have a Math quiz of 15 marks.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="notification-card">
+                        <div class="notification-icon">⚠️</div>
+
+                        <div class="notification-content">
+                            <h3>Important Notice</h3>
+                            <p>
+                                Yesterday whichever students were absent go and
+                                meet the counciller right now.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="notification-card">
+                        <div class="notification-icon">📅</div>
+
+                        <div class="notification-content">
+                            <h3>Holiday Notice</h3>
+                            <p>Tomorrow is holiday.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <div class="back-section">
+                <a href="dashboard.html">← Back to Dashboard</a>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
 </html>
