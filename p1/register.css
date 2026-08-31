@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+header {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+header h1 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+header p {
+    margin: 7px 0 0;
+    color: #cbd5e1;
+    font-size: 14px;
+}
+main {
+    width: 100%;
+    padding: 40px 20px 50px;
+}
+.register-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 35px 40px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.form-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-heading h2 {
+    margin: 0 0 8px;
+    color: #1d3557;
+    font-size: 28px;
+}
+.form-heading p {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 18px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-group > label {
+    margin-bottom: 7px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    height: 44px;
+    padding: 0 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    color: #1e293b;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #315a8a;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(49, 90, 138, 0.12);
+}
+.gender-group {
+    justify-content: flex-start;
+}
+.gender-options {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 2px;
+}
+.gender-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #475569;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.gender-options input {
+    accent-color: #315a8a;
+}
+.terms {
+    grid-column: 1 / 3;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+}
+.terms label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #475569;
+    font-size: 13px;
+    cursor: pointer;
+}
+.terms input {
+    accent-color: #315a8a;
+}
+.create-btn {
+    grid-column: 1 / 3;
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 7px;
+    background-color: #315a8a;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.create-btn:hover {
+    background-color: #1d3557;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+.login-text {
+    margin: 25px 0 0;
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+}
+.login-text a {
+    color: #315a8a;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login-text a:hover {
+    text-decoration: underline;
+}
+.back-home {
+    text-align: center;
+    margin-top: 25px;
+}
+.back-home a {
+    display: inline-block;
+    padding: 11px 18px;
+    background-color: white;
+    border: 1px solid #315a8a;
+    border-radius: 6px;
+    color: #315a8a;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.back-home a:hover {
+    background-color: #315a8a;
+    color: white;
+    transform: translateY(-2px);
+}
+@media (max-width: 700px) {
+    main {
+        padding: 25px 15px 40px;
+    }
+    .register-box {
+        padding: 30px 25px;
+    }
+    form {
+        grid-template-columns: 1fr;
+    }
+    .terms {
+        grid-column: 1;
+    }
+    .create-btn {
+        grid-column: 1;
+    }
+}
+@media (max-width: 450px) {
+    header h1 {
+        font-size: 21px;
+    }
+    .register-box {
+        padding: 25px 18px;
+    }
+    .form-heading h2 {
+        font-size: 23px;
+    }
+    .gender-options {
+        gap: 12px;
+    }
+}
