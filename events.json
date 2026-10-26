@@ -1,0 +1,44 @@
+[
+    {
+        "name": "CodeFest 2026",
+        "department": "CSE",
+        "date": "10 October 2026",
+        "venue": "Computer Lab 1",
+        "description": "Coding competition for students."
+    },
+    {
+        "name": "AI & Machine Learning Workshop",
+        "department": "CSE",
+        "date": "15 October 2026",
+        "venue": "Seminar Hall",
+        "description": "Workshop covering the basics of AI and Machine Learning."
+    },
+    {
+        "name": "Robotics Exhibition",
+        "department": "ECE",
+        "date": "20 October 2026",
+        "venue": "Main Auditorium",
+        "description": "Students showcase their robotics projects."
+    },
+    {
+        "name": "AutoTech 2026",
+        "department": "ME",
+        "date": "25 October 2026",
+        "venue": "Mechanical Workshop",
+        "description": "Technical event related to automobile technology."
+    },
+    {
+        "name": "Smart City Project Expo",
+        "department": "CE",
+        "date": "28 October 2026",
+        "venue": "Civil Engineering Block",
+        "description": "Students present smart city and infrastructure projects."
+    },
+    {
+        "name": "Web Development Workshop",
+        "department": "IT",
+        "date": "2 November 2026",
+        "venue": "IT Lab",
+        "description": "Hands-on workshop on modern web development."
+    }
+]

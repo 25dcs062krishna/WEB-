@@ -1,0 +1,42 @@
+Requirements Analysis
+
+1. Home Page (index.html)
+
+Display the StudentHub welcome page.
+Provide navigation links to all other pages.
+
+2. Login Page (login.html)
+Allow users to enter username/email and password.
+Provide Login and Reset buttons.
+
+3. Dashboard (dashboard.html)
+Display an overview of student information.
+Provide quick access to all modules.
+
+4. Attendance (attendance.html)
+Display subject-wise attendance details.
+Show attendance percentage.
+
+5. Assignment (assignment.html)
+Display assignment details and due dates.
+Show submission status.
+
+6. Study Material (material.html)
+Display available study materials.
+Provide links to view or download materials.
+
+7. Timetable (timetable.html)
+Display the weekly class schedule.
+Show subject, time, and faculty details.
+
+8. Grades (grades.html)
+Display subject-wise marks and grades.
+Show overall performance.
+
+9. Notification (notification.html)
+Display important announcements.
+Show notification date and description.
+
+10. Profile (profile.html)
+Display student personal and academic details.
+Show contact information and enrollment details.

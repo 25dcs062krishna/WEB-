@@ -1,0 +1,46 @@
+[
+    {
+        "fullname": "KRISHNA MULCHANDANI",
+        "student_id": "25dcs062",
+        "email": "25DCS062@charusat.edu.in",
+        "phone": "9429992222",
+        "course": "cse",
+        "semester": "1",
+        "dob": "2007-10-04",
+        "gender": "male",
+        "password": "$2y$10$InJKUxM04FmlJNDTkJOEjeZzc.v\/rappl.GW5aP\/5om9z8AfjwoLK"
+    },
+    {
+        "fullname": "KRISHNA MULCHANDANI",
+        "student_id": "25dcs062",
+        "email": "25DCS062@charus.edu",
+        "phone": "9429992222",
+        "course": "it",
+        "semester": "3",
+        "dob": "2007-10-04",
+        "gender": "male",
+        "password": "$2y$10$iOcsBOxlV1NnqYtBETiWRO3ExvORNkkoxTbFlzTtDdXt37ka7h2o2"
+    },
+    {
+        "fullname": "KRISHNA MULCHANDANI",
+        "student_id": "25dcs062",
+        "email": "25DCS062@charus.edu",
+        "phone": "9429992222",
+        "course": "it",
+        "semester": "3",
+        "dob": "2007-10-04",
+        "gender": "male",
+        "password": "$2y$10$SuNdFqX\/nIYid2.ULFOfy.DGFo\/MJTZzGw479dMgsbJx.3P8.wQNq"
+    },
+    {
+        "fullname": "KRISHNA MULCHANDANI",
+        "student_id": "25dcs062",
+        "email": "25DCS062@charus.edu",
+        "phone": "9429992222",
+        "course": "it",
+        "semester": "2",
+        "dob": "2007-10-04",
+        "gender": "male",
+        "password": "$2y$10$M9r6ftXN34qcbgXe1kivuuw0NXyPJ28f5NxC4mLCNNkTbULgA2aEq"
+    }
+]

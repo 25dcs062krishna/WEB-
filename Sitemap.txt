@@ -1,0 +1,12 @@
+StudentHub
+│
+├── index.html
+├── login.html
+├── dashboard.html
+├── attendance.html
+├── assignment.html
+├── material.html
+├── timetable.html
+├── grades.html
+├── notification.html
+└── profile.html

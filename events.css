@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1d3557;
+}
+
+header {
+    background: #1d3557;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo p {
+    margin: 5px 0 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+nav a:hover,
+nav a.active {
+    background: #457b9d;
+    border-radius: 5px;
+}
+
+#menubtn {
+    display: none;
+}
+
+.events-section {
+    padding: 50px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.events-section h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.events-section > p {
+    text-align: center;
+}
+
+.event-controls {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.event-controls input,
+.event-controls select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.event-controls input {
+    flex: 1;
+}
+
+.event-controls select {
+    width: 250px;
+}
+
+#eventlist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.event-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+    margin-top: 0;
+    color: #1d3557;
+}
+
+footer {
+    background: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    #menubtn {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .events-section {
+        padding: 25px;
+    }
+
+    .event-controls {
+        flex-direction: column;
+    }
+
+    .event-controls select {
+        width: 100%;
+    }
+
+    #eventlist {
+        grid-template-columns: 1fr;
+    }
+}
